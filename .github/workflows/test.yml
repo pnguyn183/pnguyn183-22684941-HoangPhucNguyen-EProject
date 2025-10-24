@@ -50,6 +50,6 @@ jobs:
       run: |
         cd auth
         npm start &
-        sleep 10
+        sleep 20
         cd ../product
         npm test
