@@ -46,11 +46,6 @@ jobs:
         cd auth
         npm test
 
-        - name: Run tests for auth
-      run: |
-        cd auth
-        npm test
-
     - name: Start auth service
       run: |
         cd auth
